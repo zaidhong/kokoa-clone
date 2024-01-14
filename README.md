@@ -1,2 +1,2 @@
 # kokoa-clone
- clone code
+ Clone Coding only HTML, CSS, JAVASCRIPT..
