@@ -25,9 +25,10 @@
         <h1 class="welcome-header__title">Welcome To KokaoClone</h1>
         <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
     </header>
-    <form id="login-form">
-        <input type="text" placeholder="Email or phone number">
-        <input type="password" placeholder="Password">
+    <!-- <form id="login-form" action="http://localhost:3000/" method="post" enctype="application/x-www-form-urlencoded"> --> <!-- friends.html -->
+    <form id="login-form" action="./friends.html" method="get">
+        <input required name="username" type="text" placeholder="Email or phone number">
+        <input required name="password" type="password" plaaceholder="Password">
         <input type="submit" value="Log In">
         <a href="#">Find Kokoa Account or Password</a>
     </form>
